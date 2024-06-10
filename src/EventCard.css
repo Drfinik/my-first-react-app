@@ -1,0 +1,19 @@
+.event-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .event-title {
+    color: #333;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+  .event-date,
+  .event-location {
+    color: #666;
+    margin: 0;
+  }
