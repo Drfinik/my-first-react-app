@@ -1,6 +1,17 @@
 import React from 'react';
+
 function Greeting() {
-    return <h1>Привет, React!</h1>;
+  const hours = new Date().getHours();
+  let greeting;
+  if (hours < 12) {
+    greeting = 'Доброе утро';
+  } else if (hours < 18) {
+    greeting = 'Добрый день';
+  } else {
+    greeting = 'Добрый вечер';
   }
-  
-  export default Greeting;
+
+  return <h1>{greeting}!</h1>;
+}
+
+export default Greeting;
